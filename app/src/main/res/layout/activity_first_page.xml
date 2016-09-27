@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.googlofeee.FirstPage">
+
+    <ImageView
+        android:id="@+id/coffee_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/m5"
+        android:scaleType="centerCrop"
+        android:alpha="0.8"
+        />
+    <TextView
+        android:id="@+id/googloffee_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Googloffee"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:textColor="#511b06"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="15sp"/>
+    <Button
+        android:id="@+id/entry_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make me in"
+        android:textStyle=""
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="390dp"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:background="#FFFFFF"
+        android:textColor="#FF6347"
+        android:onClick="continue"/>
+
+</RelativeLayout>

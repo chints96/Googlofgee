@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.googlofeee.SecondPage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/s43"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Order"
+        android:id="@+id/place_order_text_view"
+        android:textSize="40sp"
+        android:alpha="0.7"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="130dp"/>
+    <Button
+        android:id="@+id/bang_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="45dp"
+        android:text="Bang  Here"
+        android:textStyle="bold"
+        android:background="#00F0F8FF"
+        android:onClick="Bangup"/>
+
+</RelativeLayout>
